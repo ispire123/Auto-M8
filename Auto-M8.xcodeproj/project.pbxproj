@@ -15,6 +15,9 @@
 		1CA6FAB71C93FF9600688340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAB51C93FF9600688340 /* LaunchScreen.storyboard */; };
 		1CA6FAC21C93FF9600688340 /* Auto_M8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6FAC11C93FF9600688340 /* Auto_M8Tests.m */; };
 		1CA6FACD1C93FF9600688340 /* Auto_M8UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6FACC1C93FF9600688340 /* Auto_M8UITests.m */; };
+		1CA6FADC1C940AF100688340 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FADB1C940AF100688340 /* Bolts.framework */; };
+		1CA6FADE1C940AFC00688340 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FADD1C940AFC00688340 /* Parse.framework */; };
+		1CA6FAE01C940B0900688340 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FADF1C940B0900688340 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		1CA6FAC81C93FF9600688340 /* Auto-M8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto-M8UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA6FACC1C93FF9600688340 /* Auto_M8UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Auto_M8UITests.m; sourceTree = "<group>"; };
 		1CA6FACE1C93FF9600688340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA6FADB1C940AF100688340 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1CA6FADD1C940AFC00688340 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1CA6FADF1C940B0900688340 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA6FAE01C940B0900688340 /* ParseUI.framework in Frameworks */,
+				1CA6FADE1C940AFC00688340 /* Parse.framework in Frameworks */,
+				1CA6FADC1C940AF100688340 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +110,7 @@
 		1CA6FAA61C93FF9500688340 /* Auto-M8 */ = {
 			isa = PBXGroup;
 			children = (
+				1CA6FADA1C940AD400688340 /* Frameworks */,
 				1CA6FAAA1C93FF9500688340 /* AppDelegate.h */,
 				1CA6FAAB1C93FF9600688340 /* AppDelegate.m */,
 				1CA6FAAD1C93FF9600688340 /* ViewController.h */,
@@ -138,6 +148,16 @@
 				1CA6FACE1C93FF9600688340 /* Info.plist */,
 			);
 			path = "Auto-M8UITests";
+			sourceTree = "<group>";
+		};
+		1CA6FADA1C940AD400688340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6FADF1C940B0900688340 /* ParseUI.framework */,
+				1CA6FADD1C940AFC00688340 /* Parse.framework */,
+				1CA6FADB1C940AF100688340 /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +431,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Auto-M8",
+				);
 				INFOPLIST_FILE = "Auto-M8/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,6 +447,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Auto-M8",
+				);
 				INFOPLIST_FILE = "Auto-M8/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
