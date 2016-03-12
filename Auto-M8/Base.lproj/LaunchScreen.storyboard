@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,13 +16,50 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backimage" translatesAutoresizingMaskIntoConstraints="NO" id="aCx-DZ-dMY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aCx-DZ-dMY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="TgY-ab-NYp"/>
+                            <constraint firstItem="aCx-DZ-dMY" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eCL-Cn-FAV"/>
+                            <constraint firstItem="aCx-DZ-dMY" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="n4R-ur-WNV"/>
+                            <constraint firstAttribute="trailing" secondItem="aCx-DZ-dMY" secondAttribute="trailing" id="oGd-4m-Xaw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="aCx-DZ-dMY"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="TgY-ab-NYp"/>
+                                <exclude reference="eCL-Cn-FAV"/>
+                                <exclude reference="n4R-ur-WNV"/>
+                                <exclude reference="oGd-4m-Xaw"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="aCx-DZ-dMY"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="TgY-ab-NYp"/>
+                                <include reference="eCL-Cn-FAV"/>
+                                <include reference="n4R-ur-WNV"/>
+                                <include reference="oGd-4m-Xaw"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backimage" width="630" height="1136"/>
+    </resources>
 </document>

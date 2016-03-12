@@ -28,6 +28,12 @@
 		1CA6FAF01C940DDE00688340 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FAEF1C940DDE00688340 /* SystemConfiguration.framework */; };
 		1CA6FAF21C940DEC00688340 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FAF11C940DEC00688340 /* libz.tbd */; };
 		1CA6FAF41C940DFA00688340 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FAF31C940DFA00688340 /* libsqlite3.tbd */; };
+		1CA6FAF71C940F7D00688340 /* appTheme1 in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAF61C940F7D00688340 /* appTheme1 */; };
+		1CA6FAF91C940FA400688340 /* backimage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAF81C940FA400688340 /* backimage */; };
+		1CA6FAFB1C940FC700688340 /* homePage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAFA1C940FC700688340 /* homePage */; };
+		1CA6FAFD1C940FE300688340 /* loginButton in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAFC1C940FE300688340 /* loginButton */; };
+		1CA6FAFF1C940FF700688340 /* registerButton in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAFE1C940FF700688340 /* registerButton */; };
+		1CA6FB011C94156B00688340 /* backgroundImage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB001C94156B00688340 /* backgroundImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,12 @@
 		1CA6FAEF1C940DDE00688340 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1CA6FAF11C940DEC00688340 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1CA6FAF31C940DFA00688340 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1CA6FAF61C940F7D00688340 /* appTheme1 */ = {isa = PBXFileReference; lastKnownFileType = file; name = appTheme1; path = ../../../photoshop/appTheme1; sourceTree = "<group>"; };
+		1CA6FAF81C940FA400688340 /* backimage */ = {isa = PBXFileReference; lastKnownFileType = file; name = backimage; path = "../../../photoshop/final Screens/backimage"; sourceTree = "<group>"; };
+		1CA6FAFA1C940FC700688340 /* homePage */ = {isa = PBXFileReference; lastKnownFileType = file; name = homePage; path = "../../../photoshop/final Screens/homePage"; sourceTree = "<group>"; };
+		1CA6FAFC1C940FE300688340 /* loginButton */ = {isa = PBXFileReference; lastKnownFileType = file; name = loginButton; path = "../../../photoshop/final Screens/loginButton"; sourceTree = "<group>"; };
+		1CA6FAFE1C940FF700688340 /* registerButton */ = {isa = PBXFileReference; lastKnownFileType = file; name = registerButton; path = "../../../photoshop/final Screens/registerButton"; sourceTree = "<group>"; };
+		1CA6FB001C94156B00688340 /* backgroundImage */ = {isa = PBXFileReference; lastKnownFileType = file; name = backgroundImage; path = ../../../photoshop/backgroundImage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,7 @@
 		1CA6FAA61C93FF9500688340 /* Auto-M8 */ = {
 			isa = PBXGroup;
 			children = (
+				1CA6FAF51C940F5000688340 /* images */,
 				1CA6FADA1C940AD400688340 /* Frameworks */,
 				1CA6FAAA1C93FF9500688340 /* AppDelegate.h */,
 				1CA6FAAB1C93FF9600688340 /* AppDelegate.m */,
@@ -198,6 +211,19 @@
 				1CA6FADB1C940AF100688340 /* Bolts.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CA6FAF51C940F5000688340 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6FB001C94156B00688340 /* backgroundImage */,
+				1CA6FAFE1C940FF700688340 /* registerButton */,
+				1CA6FAFC1C940FE300688340 /* loginButton */,
+				1CA6FAFA1C940FC700688340 /* homePage */,
+				1CA6FAF81C940FA400688340 /* backimage */,
+				1CA6FAF61C940F7D00688340 /* appTheme1 */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +331,13 @@
 			files = (
 				1CA6FAB71C93FF9600688340 /* LaunchScreen.storyboard in Resources */,
 				1CA6FAB41C93FF9600688340 /* Assets.xcassets in Resources */,
+				1CA6FAF71C940F7D00688340 /* appTheme1 in Resources */,
+				1CA6FB011C94156B00688340 /* backgroundImage in Resources */,
+				1CA6FAF91C940FA400688340 /* backimage in Resources */,
+				1CA6FAFB1C940FC700688340 /* homePage in Resources */,
 				1CA6FAB21C93FF9600688340 /* Main.storyboard in Resources */,
+				1CA6FAFD1C940FE300688340 /* loginButton in Resources */,
+				1CA6FAFF1C940FF700688340 /* registerButton in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
