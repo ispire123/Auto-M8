@@ -28,12 +28,22 @@
 		1CA6FAF01C940DDE00688340 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FAEF1C940DDE00688340 /* SystemConfiguration.framework */; };
 		1CA6FAF21C940DEC00688340 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FAF11C940DEC00688340 /* libz.tbd */; };
 		1CA6FAF41C940DFA00688340 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6FAF31C940DFA00688340 /* libsqlite3.tbd */; };
-		1CA6FAF71C940F7D00688340 /* appTheme1 in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAF61C940F7D00688340 /* appTheme1 */; };
-		1CA6FAF91C940FA400688340 /* backimage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAF81C940FA400688340 /* backimage */; };
-		1CA6FAFB1C940FC700688340 /* homePage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAFA1C940FC700688340 /* homePage */; };
-		1CA6FAFD1C940FE300688340 /* loginButton in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAFC1C940FE300688340 /* loginButton */; };
-		1CA6FAFF1C940FF700688340 /* registerButton in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FAFE1C940FF700688340 /* registerButton */; };
-		1CA6FB011C94156B00688340 /* backgroundImage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB001C94156B00688340 /* backgroundImage */; };
+		1CA6FB161C97CCED00688340 /* 50 Px Pressed About Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB121C97CCED00688340 /* 50 Px Pressed About Us.png */; };
+		1CA6FB171C97CCED00688340 /* 50 Px pressed dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB131C97CCED00688340 /* 50 Px pressed dashboard.png */; };
+		1CA6FB181C97CCED00688340 /* appTheme in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB141C97CCED00688340 /* appTheme */; };
+		1CA6FB191C97CCED00688340 /* appTheme1 in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB151C97CCED00688340 /* appTheme1 */; };
+		1CA6FB261C97CCFA00688340 /* backimage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB1A1C97CCFA00688340 /* backimage */; };
+		1CA6FB271C97CCFA00688340 /* CleanCar in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB1B1C97CCFA00688340 /* CleanCar */; };
+		1CA6FB281C97CCFA00688340 /* homePage in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB1C1C97CCFA00688340 /* homePage */; };
+		1CA6FB291C97CCFA00688340 /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB1D1C97CCFA00688340 /* launchimage.png */; };
+		1CA6FB2A1C97CCFA00688340 /* loginButton in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB1E1C97CCFA00688340 /* loginButton */; };
+		1CA6FB2B1C97CCFA00688340 /* pressed profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB1F1C97CCFA00688340 /* pressed profile.png */; };
+		1CA6FB2C1C97CCFA00688340 /* registerButton in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB201C97CCFA00688340 /* registerButton */; };
+		1CA6FB2D1C97CCFA00688340 /* search bar-Recovered.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB211C97CCFA00688340 /* search bar-Recovered.png */; };
+		1CA6FB2E1C97CCFA00688340 /* ServiceCar in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB221C97CCFA00688340 /* ServiceCar */; };
+		1CA6FB2F1C97CCFA00688340 /* simpleBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB231C97CCFA00688340 /* simpleBackground.jpg */; };
+		1CA6FB301C97CCFA00688340 /* YourCars in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB241C97CCFA00688340 /* YourCars */; };
+		1CA6FB311C97CCFA00688340 /* YourCars.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6FB251C97CCFA00688340 /* YourCars.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,12 +93,22 @@
 		1CA6FAEF1C940DDE00688340 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1CA6FAF11C940DEC00688340 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1CA6FAF31C940DFA00688340 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1CA6FAF61C940F7D00688340 /* appTheme1 */ = {isa = PBXFileReference; lastKnownFileType = file; name = appTheme1; path = ../../../photoshop/appTheme1; sourceTree = "<group>"; };
-		1CA6FAF81C940FA400688340 /* backimage */ = {isa = PBXFileReference; lastKnownFileType = file; name = backimage; path = "../../../photoshop/final Screens/backimage"; sourceTree = "<group>"; };
-		1CA6FAFA1C940FC700688340 /* homePage */ = {isa = PBXFileReference; lastKnownFileType = file; name = homePage; path = "../../../photoshop/final Screens/homePage"; sourceTree = "<group>"; };
-		1CA6FAFC1C940FE300688340 /* loginButton */ = {isa = PBXFileReference; lastKnownFileType = file; name = loginButton; path = "../../../photoshop/final Screens/loginButton"; sourceTree = "<group>"; };
-		1CA6FAFE1C940FF700688340 /* registerButton */ = {isa = PBXFileReference; lastKnownFileType = file; name = registerButton; path = "../../../photoshop/final Screens/registerButton"; sourceTree = "<group>"; };
-		1CA6FB001C94156B00688340 /* backgroundImage */ = {isa = PBXFileReference; lastKnownFileType = file; name = backgroundImage; path = ../../../photoshop/backgroundImage; sourceTree = "<group>"; };
+		1CA6FB121C97CCED00688340 /* 50 Px Pressed About Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50 Px Pressed About Us.png"; sourceTree = SOURCE_ROOT; };
+		1CA6FB131C97CCED00688340 /* 50 Px pressed dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50 Px pressed dashboard.png"; sourceTree = SOURCE_ROOT; };
+		1CA6FB141C97CCED00688340 /* appTheme */ = {isa = PBXFileReference; lastKnownFileType = file; path = appTheme; sourceTree = SOURCE_ROOT; };
+		1CA6FB151C97CCED00688340 /* appTheme1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = appTheme1; sourceTree = SOURCE_ROOT; };
+		1CA6FB1A1C97CCFA00688340 /* backimage */ = {isa = PBXFileReference; lastKnownFileType = file; path = backimage; sourceTree = SOURCE_ROOT; };
+		1CA6FB1B1C97CCFA00688340 /* CleanCar */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanCar; sourceTree = SOURCE_ROOT; };
+		1CA6FB1C1C97CCFA00688340 /* homePage */ = {isa = PBXFileReference; lastKnownFileType = file; path = homePage; sourceTree = SOURCE_ROOT; };
+		1CA6FB1D1C97CCFA00688340 /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage.png; sourceTree = SOURCE_ROOT; };
+		1CA6FB1E1C97CCFA00688340 /* loginButton */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginButton; sourceTree = SOURCE_ROOT; };
+		1CA6FB1F1C97CCFA00688340 /* pressed profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pressed profile.png"; sourceTree = SOURCE_ROOT; };
+		1CA6FB201C97CCFA00688340 /* registerButton */ = {isa = PBXFileReference; lastKnownFileType = file; path = registerButton; sourceTree = SOURCE_ROOT; };
+		1CA6FB211C97CCFA00688340 /* search bar-Recovered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search bar-Recovered.png"; sourceTree = SOURCE_ROOT; };
+		1CA6FB221C97CCFA00688340 /* ServiceCar */ = {isa = PBXFileReference; lastKnownFileType = file; path = ServiceCar; sourceTree = SOURCE_ROOT; };
+		1CA6FB231C97CCFA00688340 /* simpleBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simpleBackground.jpg; sourceTree = SOURCE_ROOT; };
+		1CA6FB241C97CCFA00688340 /* YourCars */ = {isa = PBXFileReference; lastKnownFileType = file; path = YourCars; sourceTree = SOURCE_ROOT; };
+		1CA6FB251C97CCFA00688340 /* YourCars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YourCars.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,12 +236,22 @@
 		1CA6FAF51C940F5000688340 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				1CA6FB001C94156B00688340 /* backgroundImage */,
-				1CA6FAFE1C940FF700688340 /* registerButton */,
-				1CA6FAFC1C940FE300688340 /* loginButton */,
-				1CA6FAFA1C940FC700688340 /* homePage */,
-				1CA6FAF81C940FA400688340 /* backimage */,
-				1CA6FAF61C940F7D00688340 /* appTheme1 */,
+				1CA6FB1A1C97CCFA00688340 /* backimage */,
+				1CA6FB1B1C97CCFA00688340 /* CleanCar */,
+				1CA6FB1C1C97CCFA00688340 /* homePage */,
+				1CA6FB1D1C97CCFA00688340 /* launchimage.png */,
+				1CA6FB1E1C97CCFA00688340 /* loginButton */,
+				1CA6FB1F1C97CCFA00688340 /* pressed profile.png */,
+				1CA6FB201C97CCFA00688340 /* registerButton */,
+				1CA6FB211C97CCFA00688340 /* search bar-Recovered.png */,
+				1CA6FB221C97CCFA00688340 /* ServiceCar */,
+				1CA6FB231C97CCFA00688340 /* simpleBackground.jpg */,
+				1CA6FB241C97CCFA00688340 /* YourCars */,
+				1CA6FB251C97CCFA00688340 /* YourCars.png */,
+				1CA6FB121C97CCED00688340 /* 50 Px Pressed About Us.png */,
+				1CA6FB131C97CCED00688340 /* 50 Px pressed dashboard.png */,
+				1CA6FB141C97CCED00688340 /* appTheme */,
+				1CA6FB151C97CCED00688340 /* appTheme1 */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -329,15 +359,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA6FB2F1C97CCFA00688340 /* simpleBackground.jpg in Resources */,
+				1CA6FB2D1C97CCFA00688340 /* search bar-Recovered.png in Resources */,
+				1CA6FB2E1C97CCFA00688340 /* ServiceCar in Resources */,
+				1CA6FB181C97CCED00688340 /* appTheme in Resources */,
+				1CA6FB171C97CCED00688340 /* 50 Px pressed dashboard.png in Resources */,
+				1CA6FB191C97CCED00688340 /* appTheme1 in Resources */,
 				1CA6FAB71C93FF9600688340 /* LaunchScreen.storyboard in Resources */,
+				1CA6FB2A1C97CCFA00688340 /* loginButton in Resources */,
+				1CA6FB2B1C97CCFA00688340 /* pressed profile.png in Resources */,
+				1CA6FB271C97CCFA00688340 /* CleanCar in Resources */,
 				1CA6FAB41C93FF9600688340 /* Assets.xcassets in Resources */,
-				1CA6FAF71C940F7D00688340 /* appTheme1 in Resources */,
-				1CA6FB011C94156B00688340 /* backgroundImage in Resources */,
-				1CA6FAF91C940FA400688340 /* backimage in Resources */,
-				1CA6FAFB1C940FC700688340 /* homePage in Resources */,
+				1CA6FB291C97CCFA00688340 /* launchimage.png in Resources */,
+				1CA6FB261C97CCFA00688340 /* backimage in Resources */,
 				1CA6FAB21C93FF9600688340 /* Main.storyboard in Resources */,
-				1CA6FAFD1C940FE300688340 /* loginButton in Resources */,
-				1CA6FAFF1C940FF700688340 /* registerButton in Resources */,
+				1CA6FB281C97CCFA00688340 /* homePage in Resources */,
+				1CA6FB161C97CCED00688340 /* 50 Px Pressed About Us.png in Resources */,
+				1CA6FB301C97CCFA00688340 /* YourCars in Resources */,
+				1CA6FB311C97CCFA00688340 /* YourCars.png in Resources */,
+				1CA6FB2C1C97CCFA00688340 /* registerButton in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +638,7 @@
 				1CA6FAD31C93FF9600688340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CA6FAD41C93FF9600688340 /* Build configuration list for PBXNativeTarget "Auto-M8Tests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +647,7 @@
 				1CA6FAD61C93FF9600688340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CA6FAD71C93FF9600688340 /* Build configuration list for PBXNativeTarget "Auto-M8UITests" */ = {
 			isa = XCConfigurationList;
@@ -614,6 +656,7 @@
 				1CA6FAD91C93FF9600688340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
