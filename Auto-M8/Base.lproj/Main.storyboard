@@ -147,6 +147,10 @@
                                         <exclude reference="UOQ-j2-RjL"/>
                                     </mask>
                                     <mask key="constraints">
+                                        <exclude reference="2hH-5o-dYD"/>
+                                        <exclude reference="HQq-Dd-VD3"/>
+                                        <exclude reference="Mpd-Ez-7Fj"/>
+                                        <exclude reference="fTJ-WE-sD3"/>
                                         <exclude reference="EQy-xy-o9k"/>
                                         <exclude reference="N8W-LK-ZQ2"/>
                                         <exclude reference="7h8-qW-nl3"/>
@@ -158,10 +162,6 @@
                                         <exclude reference="rnH-2v-3nc"/>
                                         <exclude reference="ckb-Wl-45Q"/>
                                         <exclude reference="dks-yt-Idg"/>
-                                        <exclude reference="2hH-5o-dYD"/>
-                                        <exclude reference="HQq-Dd-VD3"/>
-                                        <exclude reference="Mpd-Ez-7Fj"/>
-                                        <exclude reference="fTJ-WE-sD3"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -169,6 +169,10 @@
                                         <include reference="UOQ-j2-RjL"/>
                                     </mask>
                                     <mask key="constraints">
+                                        <include reference="2hH-5o-dYD"/>
+                                        <include reference="HQq-Dd-VD3"/>
+                                        <include reference="Mpd-Ez-7Fj"/>
+                                        <include reference="fTJ-WE-sD3"/>
                                         <include reference="EQy-xy-o9k"/>
                                         <include reference="N8W-LK-ZQ2"/>
                                         <include reference="7h8-qW-nl3"/>
@@ -180,10 +184,6 @@
                                         <include reference="rnH-2v-3nc"/>
                                         <include reference="ckb-Wl-45Q"/>
                                         <include reference="dks-yt-Idg"/>
-                                        <include reference="2hH-5o-dYD"/>
-                                        <include reference="HQq-Dd-VD3"/>
-                                        <include reference="Mpd-Ez-7Fj"/>
-                                        <include reference="fTJ-WE-sD3"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -231,16 +231,17 @@
                         <viewControllerLayoutGuide type="bottom" id="AIb-HM-eKZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Dw8-Fq-Vux">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ebm-Cb-wTn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appTheme" translatesAutoresizingMaskIntoConstraints="NO" id="Ebm-Cb-wTn">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M60-xw-z2y">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M60-xw-z2y">
                                 <rect key="frame" x="0.0" y="34" width="400" height="369"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xTh-L9-7Cd">
+                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xTh-L9-7Cd">
                                         <rect key="frame" x="20" y="20" width="360" height="30"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -260,7 +261,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U1P-EJ-9QW">
+                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U1P-EJ-9QW">
                                         <rect key="frame" x="20" y="67" width="360" height="30"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -280,7 +281,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Be-lr-mWv">
+                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Be-lr-mWv">
                                         <rect key="frame" x="20" y="113" width="360" height="30"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -300,7 +301,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFp-vN-IeP">
+                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFp-vN-IeP">
                                         <rect key="frame" x="20" y="160" width="360" height="30"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -320,7 +321,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aqj-WR-BwA">
+                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aqj-WR-BwA">
                                         <rect key="frame" x="20" y="206" width="360" height="30"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -340,7 +341,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="By Registeting you agree with the terms/conditions and privacy policy of Auto M8." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zD8-ca-tvh">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="By Registeting you agree with the terms/conditions and privacy policy of Auto M8." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zD8-ca-tvh">
                                         <rect key="frame" x="20" y="249" width="360" height="51"/>
                                         <animations/>
                                         <constraints>
@@ -362,7 +363,7 @@
                                             </mask>
                                         </variation>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8w-bz-NQK">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8w-bz-NQK">
                                         <rect key="frame" x="20" y="308" width="360" height="41"/>
                                         <animations/>
                                         <constraints>
@@ -492,10 +493,6 @@
                                 <exclude reference="3v9-Hj-nHE"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="0YS-o4-k9V"/>
-                                <exclude reference="62H-zD-QPZ"/>
-                                <exclude reference="HMl-4T-TwS"/>
-                                <exclude reference="SH2-dx-4cR"/>
                                 <exclude reference="0xt-rh-nTw"/>
                                 <exclude reference="MxN-9Q-P0v"/>
                                 <exclude reference="NNs-Kl-OGj"/>
@@ -503,6 +500,10 @@
                                 <exclude reference="hdV-iB-zBm"/>
                                 <exclude reference="pNv-d9-hhY"/>
                                 <exclude reference="xr0-8A-0Kg"/>
+                                <exclude reference="0YS-o4-k9V"/>
+                                <exclude reference="62H-zD-QPZ"/>
+                                <exclude reference="HMl-4T-TwS"/>
+                                <exclude reference="SH2-dx-4cR"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -511,10 +512,6 @@
                                 <include reference="3v9-Hj-nHE"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="0YS-o4-k9V"/>
-                                <include reference="62H-zD-QPZ"/>
-                                <include reference="HMl-4T-TwS"/>
-                                <include reference="SH2-dx-4cR"/>
                                 <include reference="0xt-rh-nTw"/>
                                 <include reference="MxN-9Q-P0v"/>
                                 <include reference="NNs-Kl-OGj"/>
@@ -522,17 +519,21 @@
                                 <include reference="hdV-iB-zBm"/>
                                 <include reference="pNv-d9-hhY"/>
                                 <include reference="xr0-8A-0Kg"/>
+                                <include reference="0YS-o4-k9V"/>
+                                <include reference="62H-zD-QPZ"/>
+                                <include reference="HMl-4T-TwS"/>
+                                <include reference="SH2-dx-4cR"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIg-qo-bxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-304" y="-45"/>
+            <point key="canvasLocation" x="-12" y="-45"/>
         </scene>
     </scenes>
     <resources>
-        <image name="backgroundImage" width="630" height="1136"/>
+        <image name="appTheme" width="630" height="1136"/>
         <image name="homePage" width="630" height="1136"/>
         <image name="loginButton" width="360" height="52"/>
         <image name="registerButton" width="360" height="52"/>
